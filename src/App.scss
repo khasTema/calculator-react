@@ -1,0 +1,28 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+body {
+    font-family: 'Roboto';
+}
+
+.App {
+    width: 370px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    width: 60px;
+    & img {
+        width: 100%;
+    }
+}
